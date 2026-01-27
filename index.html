@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChroDev | Roblox 3D Modeler</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Keep Tailwind CDN for now to preserve styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -47,9 +48,10 @@
         background: #ff4d4d;
       }
     </style>
-</head>
+  </head>
   <body>
     <div id="root"></div>
+    <!-- Use Vite entry point for proper build -->
     <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
