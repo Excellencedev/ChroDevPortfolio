@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer utilities {
+  .bg-theme-dark {
+    background-color: #050505;
+  }
+  .bg-theme-red {
+    background-color: #ff4d4d;
+  }
+  .bg-theme-card {
+    background-color: #0a0a0a;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4d4d;
+}
